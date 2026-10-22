@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE = "learnwithvinod/customer-service"
+        DOCKER_IMAGE = "jeetjawale/customer-service"
         DOCKER_TAG = "${env.BUILD_NUMBER}"
         DOCKER_CREDENTIALS_ID = 'docker-learnwithvinod'
     }
